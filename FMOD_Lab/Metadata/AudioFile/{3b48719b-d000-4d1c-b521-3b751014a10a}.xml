@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3b48719b-d000-4d1c-b521-3b751014a10a}">
+		<property name="assetPath">
+			<value>Effects/Charger/Charger Pulse-005.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.92709750566893423</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cc0e2730-e732-45e7-a5df-63f173197711}</destination>
+		</relationship>
+	</object>
+</objects>

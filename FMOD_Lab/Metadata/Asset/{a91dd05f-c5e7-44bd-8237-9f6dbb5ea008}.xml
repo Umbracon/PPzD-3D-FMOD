@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{a91dd05f-c5e7-44bd-8237-9f6dbb5ea008}">
+		<property name="assetPath">
+			<value>Effects/Battery/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cc0e2730-e732-45e7-a5df-63f173197711}</destination>
+		</relationship>
+	</object>
+</objects>

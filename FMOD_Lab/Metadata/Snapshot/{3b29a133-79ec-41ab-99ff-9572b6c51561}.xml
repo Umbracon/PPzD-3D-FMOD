@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Snapshot" id="{3b29a133-79ec-41ab-99ff-9572b6c51561}">
+		<property name="name">
+			<value>Exterior</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{8aacd704-08d8-4152-9498-486f4d211355}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{f5ad82d7-4bd8-4c63-97e9-f678817bad74}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{ecdf9871-95f7-43a2-b86c-d7e345f4a17c}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{e91e663a-73da-4739-b250-b9a21a84be97}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{d3806a27-2cca-43e0-bf95-977373171ba0}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{7885966b-b819-4ea6-9cbc-227e56425342}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{f022c0ff-1bee-4096-9a09-9e05e6254906}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{f5ad82d7-4bd8-4c63-97e9-f678817bad74}" />
+	<object class="MarkerTrack" id="{ecdf9871-95f7-43a2-b86c-d7e345f4a17c}" />
+	<object class="Timeline" id="{e91e663a-73da-4739-b250-b9a21a84be97}" />
+	<object class="SnapshotMasterTrack" id="{d3806a27-2cca-43e0-bf95-977373171ba0}" />
+	<object class="SnapshotProperty" id="{7885966b-b819-4ea6-9cbc-227e56425342}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{a642e3fa-09da-4ce8-aeda-ffb644cf945a}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{f022c0ff-1bee-4096-9a09-9e05e6254906}">
+		<relationship name="mixerStrip">
+			<destination>{a642e3fa-09da-4ce8-aeda-ffb644cf945a}</destination>
+		</relationship>
+	</object>
+</objects>
